@@ -1,10 +1,10 @@
 package com.example;
 
-public class Line{
+public class Line {
     private Dot start;
     private Dot end;
 
-    public Line (Dot start, Dot end){
+    public Line(Dot start, Dot end) {
         this.start = start;
         this.end = end;
     }
@@ -26,10 +26,8 @@ public class Line{
     }
 
     public double lenght() {
-        double dX;
-        double dY;
-        dX = start.getX() - end.getX();
-        dY = start.getY() - end.getY();
+        double dX = start.getX() - end.getX();
+        double dY = start.getY() - end.getY();
         return Math.sqrt( dX * dX + dY * dY);
     }
 }
