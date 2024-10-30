@@ -1,4 +1,4 @@
-package com.example;
+package practice1.com.example;
 
 public class Dot {
     private double x;
